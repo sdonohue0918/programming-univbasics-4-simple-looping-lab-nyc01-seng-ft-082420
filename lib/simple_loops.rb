@@ -41,8 +41,8 @@ def return_string_array(array)
   return_array = []
 
   while counter<array.length do
-    return_array.push(array[counter]).to_s
+    return_array.push(array[counter])
     counter +=1
   end
-return return_array
+return return_array.to_s
 end
