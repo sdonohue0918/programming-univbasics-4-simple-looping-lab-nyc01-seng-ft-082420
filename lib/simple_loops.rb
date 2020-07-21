@@ -29,7 +29,7 @@ def output_array(array)
   while array[counter]
       counter += 1
       puts array[counter]
-
+    end
 
 end
 
