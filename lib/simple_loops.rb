@@ -36,15 +36,18 @@ end
 
 
 def return_string_array(array)
-  counter = 0
-  return_array = []
-
-  while counter<array.length do
-    array.select {|element| element.to_s}
-    counter +=1
+  count = 0
+  new_array = []
+  while count < array.length do
+    new_array.push(array[count].to_s)  
+    count += 1
   end
-return return_array
+  new_array
 end
+
+numar = [1,2,3,4,5]
+
+return_string_array(numar)
 
 this_array = [1, 2, 3, 4, 5]
 
