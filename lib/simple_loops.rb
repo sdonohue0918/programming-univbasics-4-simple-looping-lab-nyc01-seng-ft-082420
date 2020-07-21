@@ -35,7 +35,6 @@ def output_array(array)
 end
 
 
-
 def return_string_array(array)
   counter = 0
   return_array = []
@@ -46,3 +45,7 @@ def return_string_array(array)
   end
 return return_array.to_s
 end
+
+this_array = [1, 2, 3, 4, 5]
+
+return_string_array(this_array)
