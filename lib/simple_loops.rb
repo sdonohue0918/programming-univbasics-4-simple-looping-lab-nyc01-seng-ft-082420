@@ -37,6 +37,12 @@ end
 
 
 def return_string_array(array)
+  counter = 0
+  return_array = []
 
-
+  while counter<array.length do
+    return_array.push(array[counter])
+    counter +=1
+  end
+return return_array
 end
