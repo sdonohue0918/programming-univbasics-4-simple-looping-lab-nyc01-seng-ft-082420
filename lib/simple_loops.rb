@@ -28,5 +28,3 @@ def return_string_array
 
 
 end
-
-
