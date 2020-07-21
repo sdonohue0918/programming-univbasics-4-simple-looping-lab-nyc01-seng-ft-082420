@@ -40,10 +40,10 @@ def return_string_array(array)
   return_array = []
 
   while counter<array.length do
-    return_array.push(array[counter])
+    array.select {|element| element.to_s}
     counter +=1
   end
-return return_array.to_s
+return return_array
 end
 
 this_array = [1, 2, 3, 4, 5]
