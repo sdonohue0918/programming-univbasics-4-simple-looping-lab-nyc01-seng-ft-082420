@@ -3,9 +3,11 @@
 
 
 def loop_message_five_times(message)
-    while message = true do
-      puts message(5)
+    counter = 0
 
+    while counter<5 do
+      puts message
+    end
 end
 
 
