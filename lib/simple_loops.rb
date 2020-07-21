@@ -2,8 +2,10 @@
 
 
 
-def loop_message_five_times
-
+def loop_message_five_times(message)
+    while message = true do
+      puts message(5)
+    end
 end
 
 
